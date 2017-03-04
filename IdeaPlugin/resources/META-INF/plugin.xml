@@ -1,0 +1,29 @@
+<idea-plugin version="2">
+  <id>com.anupcowkur.herebedragons</id>
+  <name>Side Effects</name>
+  <version>1.0</version>
+  <vendor email="anupcowkur89@gmail.com" url="https://github.com/anupcowkur/SideEffects">Side Effects</vendor>
+
+  <description><![CDATA[
+      Side Effects is a simple Intellij/Android Studio plugin that shows a dragon icon in the gutter for methods annotated with the @SideEffects annotation.<br/>
+    ]]></description>
+
+  <change-notes><![CDATA[
+     1.0.0: Initial version.<br/>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <codeInsight.lineMarkerProvider language="JAVA"
+                                    implementationClass="com.anupcowkur.herebedragons.SideEffectLineMarkerProvider"/>
+  </extensions>
+</idea-plugin>
