@@ -1,13 +1,14 @@
 package com.anupcowkur.herebedragons;
 
+import com.intellij.codeInsight.AnnotationUtil;
 import com.intellij.psi.PsiAnnotation;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiModifierList;
 import com.intellij.psi.PsiModifierListOwner;
 
-public final class AnnotationFinder {
+public final class AnnotationDetector {
 
-    private AnnotationFinder() {
+    private AnnotationDetector() {
     }
 
     public static boolean hasAnnotation(PsiElement element, String annotationName) {
@@ -26,6 +27,7 @@ public final class AnnotationFinder {
                     }
                 }
             }
+
         }
         return null;
     }
