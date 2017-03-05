@@ -16,6 +16,7 @@
 *.externalNativeBuild
 
 # Idea Plugin
+IdeaPlugin/IdeaPlugin.jar
 *target/
 *out/
 
