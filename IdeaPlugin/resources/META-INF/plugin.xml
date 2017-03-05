@@ -1,11 +1,11 @@
 <idea-plugin version="2">
   <id>com.anupcowkur.herebedragons</id>
-  <name>Side Effects</name>
+  <name>Here Be Dragons</name>
   <version>1.0</version>
   <vendor email="anupcowkur89@gmail.com" url="https://github.com/anupcowkur/SideEffects">Side Effects</vendor>
 
   <description><![CDATA[
-      Side Effects is a simple Intellij/Android Studio plugin that shows a dragon icon in the gutter for methods annotated with the @SideEffects annotation.<br/>
+      Annotate your methods with @SideEffect and let the little dragon show you when you're calling an impure method<br/>
     ]]></description>
 
   <change-notes><![CDATA[
