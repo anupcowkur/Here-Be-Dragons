@@ -4,7 +4,7 @@ Here be dragons is an Intellij/Android Studio plugin that let's you annotate you
 ![How the plugin works](here-be-dragons.gif)
 
 # Why would I want to do this?
-When writing functional style code, isolating impure and pure functions becomes very important. This helsp you visually identify which methods are impure when a bunch of methods are being called in a code block.
+When writing functional style code, isolating impure and pure functions becomes very important. This helps you visually identify which methods are impure when a bunch of methods are being called in a code block.
 
 For a beginner friendly introduction to functional programming in Android, please checkout out my [blog series](https://medium.freecodecamp.com/functional-programming-for-android-developers-part-1-a58d40d6e742#.z2eewm52o).
 
