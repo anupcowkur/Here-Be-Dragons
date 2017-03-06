@@ -9,7 +9,7 @@ When writing functional style code, isolating impure and pure functions becomes 
 For a beginner friendly introduction to functional programming in Android, please checkout out my [blog series](https://medium.freecodecamp.com/functional-programming-for-android-developers-part-1-a58d40d6e742#.z2eewm52o).
 
 # Download
-[Download][ https://github.com/anupcowkur/here-be-dragons/blob/master/here-be-dragons-1.0.0.jar?raw=true] the plugin jar and select "Install Plugin From Disk" in IntelliJ's plugin preferences.
+[Download](https://github.com/anupcowkur/here-be-dragons/blob/master/here-be-dragons-1.0.0.jar?raw=true) the plugin jar and select "Install Plugin From Disk" in IntelliJ's plugin preferences.
 
 Add the jcenter repository to your gradle build file if it's not already present:
 
@@ -46,5 +46,5 @@ public class Test {
 And when you call the method anywhere, you'll see the dragon icon show up in the IDE gutter.
 
 # License
-This project is licensed under the [MIT License]( https://github.com/anupcowkur/here-be-dragons/blob/master/License.txt)
+This project is licensed under the [MIT License](https://github.com/anupcowkur/here-be-dragons/blob/master/License.txt)
 
