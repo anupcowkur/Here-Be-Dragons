@@ -10,7 +10,7 @@ For a beginner friendly introduction to functional programming in Android, pleas
 
 # Installation
 ## Install the plugin
-[Download](https://github.com/anupcowkur/here-be-dragons/blob/master/here-be-dragons-1.0.0.jar?raw=true) the plugin jar and select "Install Plugin From Disk" in IntelliJ's plugin preferences.
+[Download](https://github.com/anupcowkur/here-be-dragons/releases/download/v1.0.0/here-be-dragons-1.0.0.jar) the plugin jar and select "Install Plugin From Disk" in IntelliJ's plugin preferences.
 
 ## Add the annotation library
 Add the jcenter repository to your gradle build file if it's not already present:
