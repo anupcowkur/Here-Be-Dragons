@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>com.anupcowkur.herebedragons</id>
   <name>Here Be Dragons</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="anupcowkur89@gmail.com" url="https://github.com/anupcowkur/SideEffects">Side Effects</vendor>
 
   <description><![CDATA[
@@ -9,7 +9,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
-     1.0.0: Initial version.<br/>
+     1.0.1: Make compatible with Java 7.<br/>
     ]]>
   </change-notes>
 
