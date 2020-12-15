@@ -1,5 +1,5 @@
 # Deprecated
-This plugin is no longer maintained. It will work fine but no new issues, feature requests etc will be accepted. You can still use the source as reference to make your own custom plugins.
+This project is no longer maintained. No new issues or pull requests will be accepted. You can still use the source or fork the project to suit your needs.
 
 # Here Be Dragons
 Here be dragons is an Intellij/Android Studio plugin that let's you annotate your impure Java methods with the `@SideEffect` annotation and shows a little dragon icon in the gutter when you call them.
